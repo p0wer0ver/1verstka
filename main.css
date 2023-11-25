@@ -1,0 +1,89 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+aside {
+    background-color: rgba(5, 7, 41, 0.8);
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+   padding-top: 12%;
+   color: #ffffff;
+   width: 70%;
+}
+header h1{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #A276FF;
+    font-size: 76px;
+
+}
+header h2 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 42px;
+}
+header p {
+    text-align: justify;
+    margin-bottom: 2em;
+}
+.main {
+    background-image: url(./img/bg.jpg);
+    height:100vh;
+    overflow-y: scroll;
+}
+.content {
+    margin-left: 25%;
+    width: 65%;
+}
+.gallery {
+    height: 15vh;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+.gallery .item {
+    width:20%;
+    height: 100%;
+    border: solid 6px #ffffff;
+    border-radius: 11px;
+    overflow: hidden;
+}
+.gallery .item:hover {
+    border-color: yellow;
+}
+.news {
+    margin-top: 5em;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.news h2 {
+    text-transform: uppercase;
+    font-size: 42px;
+    margin: 0;
+
+}
+.common-button {
+    border:solid 3px #ffffff;
+    text-transform: uppercase;
+    border-radius: 17px;
+    padding: 15px 50px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+.common-button:hover {
+    border-color: yellow;
+}
