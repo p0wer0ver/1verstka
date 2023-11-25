@@ -36,7 +36,7 @@ header p {
     margin-bottom: 2em;
 }
 .main {
-    background-image: url(./img/bg.jpg);
+    background-image: url(./img/fon.png);
     height:100vh;
     overflow-y: scroll;
 }
@@ -58,6 +58,7 @@ header p {
     border: solid 6px #ffffff;
     border-radius: 11px;
     overflow: hidden;
+    position: relative;
 }
 .gallery .item:hover {
     border-color: yellow;
